@@ -3,7 +3,7 @@ import time
 
 # print("This program only plays the first suggestion on YouTube \n")
 # key = input("What do you want to search?")
-key = "SURAKSHYA GHIMIRE VLOG SAN FRANCISCO TO LOS ANGELES"
+key = "Your Search Here"
 
 driver = webdriver.Chrome('/Users/pratik/Desktop/Fun Automation/chromedriver')
 driver.get('https://www.youtube.com')
