@@ -5,7 +5,7 @@ import time
 # key = input("What do you want to search?")
 key = "Your Search Here"
 
-driver = webdriver.Chrome('/Users/pratik/Desktop/Fun Automation/chromedriver')
+driver = webdriver.Chrome('PATH FOR CHROMEDRIVER')
 driver.get('https://www.youtube.com')
 
 searchbox = driver.find_element_by_xpath('//*[@id="search"]')
